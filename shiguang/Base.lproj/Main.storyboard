@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xCV-z1-oLp">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--购票-->
+        <scene sceneID="Qw3-ZF-jyY">
+            <objects>
+                <viewController id="vKu-hV-hPF" customClass="TwoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TfY-JM-7iA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="购票" id="I3p-ch-AaV"/>
+                    <navigationItem key="navigationItem" id="bQ5-R2-Ss5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wk-Op-dYB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455" y="-750"/>
+        </scene>
+        <!--购票-->
+        <scene sceneID="A8B-UV-n2o">
+            <objects>
+                <navigationController id="EXy-mC-t2Z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="购票" image="payticket_on.png" selectedImage="payticket.png" id="cQR-1U-XtL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dq7-bw-9bF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vKu-hV-hPF" kind="relationship" relationship="rootViewController" id="R0b-aN-84J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j59-8F-p0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="-671"/>
+        </scene>
+        <!--商城-->
+        <scene sceneID="Ef6-1U-Hgh">
+            <objects>
+                <navigationController id="HVc-U4-xVd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="商城" image="store_on.png" selectedImage="store.png" id="mYh-Fs-ixR"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Neh-RM-cks">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="nMY-ZT-rZZ" kind="relationship" relationship="rootViewController" id="93n-4r-FoH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KxP-dI-Z4y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919" y="48"/>
+        </scene>
+        <!--商城-->
+        <scene sceneID="sp5-e6-eBR">
+            <objects>
+                <viewController id="nMY-ZT-rZZ" customClass="ThreeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d5g-g0-7rw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="商城" id="0QO-rR-Ugb"/>
+                    <navigationItem key="navigationItem" id="icY-2d-p2p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qed-ju-ylA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1563" y="48"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="PoQ-ka-pQB">
+            <objects>
+                <navigationController id="VG7-Sw-DUr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" image="discover_on.png" selectedImage="discover.png" id="edn-33-n8D"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wcN-j4-gHC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5Z9-K1-HFb" kind="relationship" relationship="rootViewController" id="ees-PZ-PmE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZaK-SH-lw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="781"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="lH0-uY-IcC">
+            <objects>
+                <viewController id="5Z9-K1-HFb" customClass="FourViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YDd-0S-0jH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现" id="WZH-nT-cZA"/>
+                    <navigationItem key="navigationItem" id="lRz-9L-qIn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V4x-L7-HBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555.5" y="828.5"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="H67-7T-8sY">
+            <objects>
+                <navigationController id="yLs-is-bgc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="myinfo_on.png" selectedImage="myinfo.png" id="YEn-Tf-0nA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LSK-Uf-JId">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fE7-Gn-7qu" kind="relationship" relationship="rootViewController" id="kVf-wR-JrB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ugq-SN-4jE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="1625"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="27u-V7-pjh">
+            <objects>
+                <viewController id="fE7-Gn-7qu" customClass="FiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OBc-WZ-uxY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" id="188-Hs-PEG"/>
+                    <navigationItem key="navigationItem" id="6vU-il-APJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="irX-Fq-cF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555" y="1696"/>
+        </scene>
+        <!--Five To New View Controller-->
+        <scene sceneID="Pjw-NF-DlE">
+            <objects>
+                <viewController storyboardIdentifier="newFive" id="ybR-Wh-gab" customClass="FiveToNewViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kV6-SD-X7P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号" textAlignment="natural" minimumFontSize="17" id="hM4-Tn-MfA">
+                                <rect key="frame" x="49" y="140" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" id="g35-xL-UeD">
+                                <rect key="frame" x="49" y="192" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入邮箱" textAlignment="natural" minimumFontSize="17" id="HpO-NN-EeW">
+                                <rect key="frame" x="49" y="255" width="276" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EaW-nE-6tZ">
+                                <rect key="frame" x="77" y="346" width="221" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="注册">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClick2:" destination="ybR-Wh-gab" eventType="touchUpInside" id="tgL-SN-XO9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我已阅读并同意" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gXN-cD-pBW">
+                                <rect key="frame" x="68" y="311" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="《Mtime时光网服务条款》" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5y0-s6-cPY">
+                                <rect key="frame" x="156" y="311" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="field" destination="HpO-NN-EeW" id="WaR-6k-f3m"/>
+                        <outlet property="field1" destination="hM4-Tn-MfA" id="tNY-fv-SxL"/>
+                        <outlet property="field2" destination="g35-xL-UeD" id="Cy0-UE-pkp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4BS-km-uVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2122.5" y="1695.5"/>
+        </scene>
+        <!--Five To Two View Controller-->
+        <scene sceneID="JJq-f1-6Le">
+            <objects>
+                <viewController storyboardIdentifier="toTwo" id="WoM-4C-6Hc" customClass="FiveToTwoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fQG-9a-cRu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入手机号码" textAlignment="natural" minimumFontSize="17" id="Leh-Rw-3t1">
+                                <rect key="frame" x="64" y="144" width="247" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" id="Vof-jS-UXA">
+                                <rect key="frame" x="64" y="211" width="247" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LdP-5d-3WA">
+                                <rect key="frame" x="103" y="303" width="169" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onClick2:" destination="WoM-4C-6Hc" eventType="touchUpInside" id="cpC-eV-iav"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="field1" destination="Leh-Rw-3t1" id="6ER-r3-hON"/>
+                        <outlet property="field2" destination="Vof-jS-UXA" id="6Q6-pJ-a7q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVy-NL-Lcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2574.5" y="1695.5"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="YPu-LY-MRd">
+            <objects>
+                <navigationController id="BkC-OB-GHs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="home_on.png" selectedImage="home.png" id="HSm-Ba-lww"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9lh-gr-4dc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kYv-Yk-NSY" kind="relationship" relationship="rootViewController" id="ygH-nc-CRx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JY7-Fz-4CT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-1362"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="KqB-l7-DXy">
+            <objects>
+                <viewController id="kYv-Yk-NSY" customClass="OneViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xp8-2p-xGE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" id="tHZ-MK-2gs"/>
+                    <navigationItem key="navigationItem" id="b87-Ne-JL9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hzl-IH-BZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919.5" y="-1456.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JeM-jB-5La">
+            <objects>
+                <tabBarController id="xCV-z1-oLp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ypx-uK-uHL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="elM-DS-KlU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BkC-OB-GHs" kind="relationship" relationship="viewControllers" id="TgW-PJ-NLB"/>
+                        <segue destination="EXy-mC-t2Z" kind="relationship" relationship="viewControllers" id="Agg-c2-wxw"/>
+                        <segue destination="HVc-U4-xVd" kind="relationship" relationship="viewControllers" id="mQV-6r-Zfl"/>
+                        <segue destination="VG7-Sw-DUr" kind="relationship" relationship="viewControllers" id="zJX-uC-bn2"/>
+                        <segue destination="yLs-is-bgc" kind="relationship" relationship="viewControllers" id="Mm1-Fe-jMy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fK-7Y-XEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-421.5" y="615.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="discover.png" width="64" height="49"/>
+        <image name="discover_on.png" width="64" height="49"/>
+        <image name="home.png" width="64" height="49"/>
+        <image name="home_on.png" width="64" height="49"/>
+        <image name="myinfo.png" width="64" height="49"/>
+        <image name="myinfo_on.png" width="64" height="49"/>
+        <image name="payticket.png" width="64" height="49"/>
+        <image name="payticket_on.png" width="64" height="49"/>
+        <image name="store.png" width="64" height="49"/>
+        <image name="store_on.png" width="64" height="49"/>
+    </resources>
+</document>

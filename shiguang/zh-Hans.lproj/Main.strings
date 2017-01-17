@@ -1,0 +1,57 @@
+
+/* Class = "UITabBarItem"; title = "商城"; ObjectID = "0QO-rR-Ugb"; */
+"0QO-rR-Ugb.title" = "商城";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "188-Hs-PEG"; */
+"188-Hs-PEG.title" = "我的";
+
+/* Class = "UILabel"; text = "《Mtime时光网服务条款》"; ObjectID = "5y0-s6-cPY"; */
+"5y0-s6-cPY.text" = "《Mtime时光网服务条款》";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "EaW-nE-6tZ"; */
+"EaW-nE-6tZ.normalTitle" = "注册";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "HSm-Ba-lww"; */
+"HSm-Ba-lww.title" = "首页";
+
+/* Class = "UITextField"; placeholder = "请输入邮箱"; ObjectID = "HpO-NN-EeW"; */
+"HpO-NN-EeW.placeholder" = "请输入邮箱";
+
+/* Class = "UITabBarItem"; title = "购票"; ObjectID = "I3p-ch-AaV"; */
+"I3p-ch-AaV.title" = "购票";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "LdP-5d-3WA"; */
+"LdP-5d-3WA.normalTitle" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "Leh-Rw-3t1"; */
+"Leh-Rw-3t1.placeholder" = "请输入手机号码";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Vof-jS-UXA"; */
+"Vof-jS-UXA.placeholder" = "请输入密码";
+
+/* Class = "UITabBarItem"; title = "发现"; ObjectID = "WZH-nT-cZA"; */
+"WZH-nT-cZA.title" = "发现";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "YEn-Tf-0nA"; */
+"YEn-Tf-0nA.title" = "我的";
+
+/* Class = "UITabBarItem"; title = "购票"; ObjectID = "cQR-1U-XtL"; */
+"cQR-1U-XtL.title" = "购票";
+
+/* Class = "UITabBarItem"; title = "发现"; ObjectID = "edn-33-n8D"; */
+"edn-33-n8D.title" = "发现";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "g35-xL-UeD"; */
+"g35-xL-UeD.placeholder" = "请输入密码";
+
+/* Class = "UILabel"; text = "我已阅读并同意"; ObjectID = "gXN-cD-pBW"; */
+"gXN-cD-pBW.text" = "我已阅读并同意";
+
+/* Class = "UITextField"; placeholder = "请输入手机号"; ObjectID = "hM4-Tn-MfA"; */
+"hM4-Tn-MfA.placeholder" = "请输入手机号";
+
+/* Class = "UITabBarItem"; title = "商城"; ObjectID = "mYh-Fs-ixR"; */
+"mYh-Fs-ixR.title" = "商城";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "tHZ-MK-2gs"; */
+"tHZ-MK-2gs.title" = "首页";
